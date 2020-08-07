@@ -1,3 +1,4 @@
+
 package com.company;
 import java.util.Locale;
 import java.util.Scanner;
@@ -19,7 +20,6 @@ public class Main {
                 dia = "Janeiro";
                 break;
             case 2:
-                ;
                 dia = "Fevereiro";
                 break;
             case 3:
@@ -47,3 +47,4 @@ public class Main {
 
 
     }
+
