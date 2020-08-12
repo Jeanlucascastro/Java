@@ -8,3 +8,4 @@ insert into produtos values (1, "sabonete", "hidratante");
 insert into produtos (codigo, nome) values (2,"desidratante");
 select codigo,nome,descricao from produtos;
 update produtos set descricao = "muito bom" where codigo = 1; // não funciona em "safe mode"
+select codigo,nome,descricao from produtos;// cria o registro em uma 3 linha na tabela.
