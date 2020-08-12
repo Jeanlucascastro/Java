@@ -1,0 +1,10 @@
+CREATE DATABASE vendas_natura;
+SHOW DATABASES;
+USE vendas_natura;
+CREATE TABLE produtos (codigo INT (11), nome varchar (100));
+SHOW TABLES;
+alter table produtos add descricao varchar (100) after nome;
+insert into produtos values (1, "sabonete", "hidratante");
+insert into produtos (codigo, nome) values (2,"desidratante");
+select codigo,nome,descricao from produtos;
+update produtos set descricao = "muito bom" where codigo = 1; // não funciona em "safe mode"
