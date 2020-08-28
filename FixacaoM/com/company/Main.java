@@ -21,7 +21,7 @@ public class Main {
 		double value =0;
 		Bank bank4 = new Bank(holder, number, value);
 		
-		double value2 = 1;
+		
 		int afirm = 1;
 		
 		System.out.println("Digite se vai depositar y or n ");
@@ -29,12 +29,13 @@ public class Main {
 		
 		if (decid == afirm) {
 			System.out.println("Digite o valor ");
-			value2 = sc.nextDouble();
+			value = sc.nextDouble();
+			bank4.addValue(value);
 		}
 		else {
 			System.out.println("Sem saldo ");
 		}
-		value = value2;
+		
 		
 		
 		
