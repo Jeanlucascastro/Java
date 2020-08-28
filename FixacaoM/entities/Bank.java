@@ -6,7 +6,16 @@ public class Bank {
 	private String holder;
 	private int number;
 	private double value;
-
+	
+	
+	public Bank (double value) {
+		this.value = value;
+	}
+	public Bank (String holder, int number) {
+		this.holder = holder;
+		this.number = number;
+	}
+	
 	public Bank(String holder, int number, double value) {
 		this.holder = holder;
 		this.number = number;
@@ -20,9 +29,10 @@ public class Bank {
 	public void addValue(double value) {
 		this.value += value;
 	}
+	
 
 	public void removeValue(double value) {
-		this.value -= (value * 0.5);
+		this.value -= value;
 	}
 
 	public String toString() {
