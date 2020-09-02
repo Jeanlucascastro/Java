@@ -1,0 +1,5 @@
+for(int n = 0; n < lista.size(); n++) {
+		aux = aux + lista.get(n);
+	}
+	
+	System.out.println(aux);
