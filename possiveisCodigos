@@ -3,3 +3,4 @@ for(int n = 0; n < lista.size(); n++) {
 	}
 	
 	System.out.println(aux);
+s
